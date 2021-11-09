@@ -1,0 +1,223 @@
+@charset "UTF-8";
+body {
+  background-color: #c3cfe2;
+}
+body .testimonial {
+  width: 300px;
+  box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 20px 20px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#fff 65%, #686de0 35%);
+}
+body .testimonial-text {
+  padding: 20px;
+  color: #464646;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .img-testimonial {
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+body h5 {
+  margin-top: 12px;
+  margin-bottom: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+body .website-text {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: #adabab;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background-color: #c3cfe2;
+}
+body .portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+body img {
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
+}
+body button {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 80px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+body .img-relative {
+  position: relative;
+  display: inline-block;
+  margin: 10px 10px 0 10px;
+  border-radius: 5px;
+  max-width: 100%;
+  overflow: hidden;
+}
+body .img-relative:hover img {
+  transform: scale(1.2);
+}
+body .btn-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2931;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+body .btn-overlay:hover {
+  opacity: 1;
+}
+@media (min-width: 768px) {
+  body .portfolio-grid .img-relative {
+    max-width: 47%;
+  }
+}
+@media (min-width: 1024px) {
+  body .portfolio-grid .img-relative {
+    max-width: 30%;
+  }
+}
+
+body {
+  margin-right: 0;
+}
+body .social-media {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+body a {
+  color: #fff;
+}
+body .social-media-blog {
+  background-color: #e17b77;
+  height: 40px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  right: -165px;
+}
+body .social-media-blog:hover {
+  right: 0;
+  transition: 500ms;
+}
+body .social-media-blog::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  margin: 0 25px 0 20px;
+  color: #fff;
+}
+body .social-media-twitter {
+  height: 40px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  right: -165px;
+  background-color: #00aced;
+}
+body .social-media-twitter:hover {
+  right: 0;
+  transition: 500ms;
+}
+body .social-media-twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "";
+  margin: 0 25px 0 20px;
+  color: #fff;
+}
+body .social-media-linkedin {
+  height: 40px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  right: -165px;
+  background-color: #007bb6;
+}
+body .social-media-linkedin:hover {
+  right: 0;
+  transition: 500ms;
+}
+body .social-media-linkedin::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "";
+  margin: 0 25px 0 20px;
+  color: #fff;
+}
+body .social-media-facebook {
+  height: 40px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  right: -165px;
+  background-color: #3b5998;
+}
+body .social-media-facebook:hover {
+  right: 0;
+  transition: 500ms;
+}
+body .social-media-facebook::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "";
+  margin: 0 25px 0 20px;
+  color: #fff;
+}
+body .social-media-github {
+  height: 40px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  right: -165px;
+  background-color: #333;
+}
+body .social-media-github:hover {
+  right: 0;
+  transition: 500ms;
+}
+body .social-media-github::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "";
+  margin: 0 25px 0 20px;
+  color: #fff;
+}
+
+@media (min-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+}/*# sourceMappingURL=style.css.map */

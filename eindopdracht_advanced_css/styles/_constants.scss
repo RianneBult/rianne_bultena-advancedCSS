@@ -1,0 +1,29 @@
+$color-background-grey: #c3cfe2; 
+$color-white: #fff;
+$color-blue-purple: #686de0;
+$color-text-light-grey: rgb(173, 171, 171);
+$color-text-grey: rgb(70, 70, 70);
+$font-family-arial: Arial, Helvetica, sans-serif;
+$standard-border-radius: 5px;
+$overlay-background-color: rgb(42, 41, 49); 
+$color-background-blog: #e17b77;
+$color-background-twitter: #00aced;
+$color-background-linkedin: #007bb6;
+$color-background-facebook: #3b5998;
+$color-background-github: #333;
+
+//Mixins for buttons
+@mixin buttons-layout{
+    height: 40px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    right: -165px;
+}
+
+@mixin icon-style{
+    margin: 0 25px 0 20px;
+    color: $color-white;
+}
